@@ -1,26 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+@import "reset.css";
+@import "status-bar.css";
 body{
     font-family: 'Fuzzy Bubbles', cursive;
 }
-.status-bar{
+.welcome-header{
+    margin: 90px 0;
+    text-align: center;
     display: flex;
-    justify-content: center;
-
+    flex-direction: column;
+    align-items: center;
 }
-.status-bar__column{
-    width :33%
+.welcome-header__title{margin-bottom: 20px;
+font-size: 25px;
 }
-.status-bar__column:first-child span{
-    margin-right: 5px;
-}
-.status-bar__column:nth-child(2) {
-    display: flex;
-    justify-content: center;
-}
-.status-bar__column:last-child{
-    display: flex;
-    justify-content: flex-end;
-}
-.status-bar__column .fa-battery-full {
-    margin:0 5px;
-}
+.welcome-header__text{width:60%;
+opacity: 0.7;}
