@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+@import url('https://hangeul.pstatic.net/hangeul_static/css/NanumDongHwaDdoBag.css');
 @import "reset.css";
 @import "variables.css";
 
@@ -11,5 +11,5 @@
 @import "screens/login.css";
 
 body{
-    font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'NanumDongHwaDdoBag';
 }
