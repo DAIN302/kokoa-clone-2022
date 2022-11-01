@@ -40,6 +40,11 @@
     font-weight: 400;
 }
 
+.user-component__column {
+    margin:10px 0px;
+    
+}
+
 .user-component__column:last-child {
     color: rgba(0, 0, 0, 0.5);
     display: flex;
