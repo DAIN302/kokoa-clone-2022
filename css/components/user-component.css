@@ -6,6 +6,7 @@
     align-items: center;
 } 
 
+
 .user-component__avatar {
     width: 70px;
     height: 70px;
@@ -55,4 +56,8 @@
 .user-component__time {
     margin-bottom: 10px;
     display: block;
+}
+
+.user-component__subtitle i {
+    color :tomato;
 }
