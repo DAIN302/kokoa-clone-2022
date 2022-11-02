@@ -4,7 +4,8 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 5px 3px;
+    padding-top: 3px;
+    margin-bottom: -10px;
 }
 .status-bar__column{
     width :33%

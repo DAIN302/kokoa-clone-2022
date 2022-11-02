@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chat w/cb - Kokoa Clone</title>
   </head>
-  <body>
+  <body id="chat-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -22,49 +22,55 @@
         <i class="fa-solid fa-bolt"></i>
       </div>
     </div>
-    
+
     <header class="alt-header">
       <div class="alt-header__column">
         <a href="javascript:history.back();">
-        <i class="fa-solid fa-angle-left fa-2x"></i></a>
+          <i class="fa-solid fa-angle-left fa-2x"></i
+        ></a>
       </div>
       <div class="alt-header__column">
-        <h1 class="alt-header__title">Settings</h1>
+        <h1 class="alt-header__title">Cherry Blossom</h1>
       </div>
       <div class="alt-header__column">
         <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-bars fa-lg"></i></span>
       </div>
     </header>
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Sunday, Octocber 30, 2022</div>
 
-    </header>
-    <main class="main-screen">
-      <ul class="settings__list">
-        <li class="settings__setting">
-          <div class="settings__setting-column">
-          <i class="fa-solid fa-bullhorn"></i>
-          <span>Notice</span>
+      <div class="message-row">
+        <img src="D:\dain\kokoa-clone-2022\photo\cherryblossomcookie.png" />
+        <div class="message-row__content">
+          <span class="message-row__author">Cherry Blossom</span>
+          <div class="message-row__info">
+            <span class="message-row__bubble">Hi!</span>
+            <span class="message-row__time">21:27</span>
           </div>
-          <div class="settings__setting-column"></div>
-        </li>
-        <li class="settings__setting">
-          <div class="settings__setting-column">
-          <i class="fa-solid fa-flask"></i>
-          <span>Kokoa Lab</span>
-          </div>
-          <div class="settings__setting-column"></div>
-        </li>
-        <li class="settings__setting">
-          <div class="settings__setting-column">
-          <i class="fa-solid fa-circle-info"></i>
-          <span>Version</span>
-          </div>
-          <div class="settings__setting-column">Latest Version</div>
-        </li>
-      </ul>
+        </div>
+      </div>
 
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message-row__info">
+            <span class="message-row__bubble">Good to see you!</span>
+            <span class="message-row__time">21:28</span>
+          </div>
+        </div>
+      </div>
 
+      <div class="message-row">
+        <img src="D:\dain\kokoa-clone-2022\photo\cherryblossomcookie.png" />
+        <div class="message-row__content">
+          <span class="message-row__author">Cherry Blossom</span>
+          <div class="message-row__info">
+            <span class="message-row__bubble">Let's go on a picnic!!</span>
+            <span class="message-row__time">21:30</span>
+          </div>
+        </div>
+      </div>
     </main>
-   
 
     <script
       src="https://kit.fontawesome.com/2041668019.js"
