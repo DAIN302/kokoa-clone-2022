@@ -37,7 +37,7 @@
 }
 
 #login-form input[type="submit"]{
-    background-color: var(--yellow);
+    background-color: pink;
     cursor: pointer;
     padding: 20px 0;
     border-radius: 5px;

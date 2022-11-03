@@ -10,6 +10,7 @@
 @import "components/badge.css";
 @import "components/icon-row.css";
 @import "components/alt-screen-header.css";
+@import "components/reply.css";
 
 /* screens */
 @import "screens/login.css";
@@ -20,6 +21,7 @@
 @import "screens/chat.css";
 
 body{
+    background-color: rgb(255, 233, 237);
     color:#2e363e;
     font-family: 'NanumDongHwaDdoBag';
 }
