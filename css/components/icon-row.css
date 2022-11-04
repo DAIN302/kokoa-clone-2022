@@ -6,7 +6,11 @@
 .icon-row__icon {
     display: flex;
     flex-direction: column;
+    width: 78px;
+    height: 78px;
+    justify-content: center;
     align-items: center;
+    cursor: pointer;
     
 }
 
@@ -14,6 +18,11 @@
     font-size: 35px;
     color :rgba(0, 0, 0, 0.6);
 }
+
+.icon-row i:hover{
+    color:black;
+}
+
 
 .icon-row__icon span {
     margin-top: 15px;

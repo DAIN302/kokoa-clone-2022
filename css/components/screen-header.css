@@ -38,3 +38,13 @@
     top: -6px;
 
 }
+
+@keyframes rotateMusic {
+    from {transform :none;}
+    to{transform: rotate(1turn);}
+}
+
+.screen-header__icons .fa-music:hover {
+    animation: rotateMusic 2s linear infinite;
+    cursor: pointer;
+}

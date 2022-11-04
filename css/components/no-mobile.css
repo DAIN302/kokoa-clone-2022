@@ -19,6 +19,6 @@
 
 }
 
-@media screen and (max-width:645px){
+@media screen and (max-width:850px) and (max-height: 1200px) {
     #no-mobile {display :none;}
 }

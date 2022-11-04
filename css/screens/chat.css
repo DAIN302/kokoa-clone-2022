@@ -32,7 +32,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    animation: fadeIn 0.8s linear;
+    animation: fadeIn 0.5s linear;
 }   
 
 .chat__timestamp {
@@ -44,10 +44,23 @@
     margin-bottom: 25px;
 }
 
+@keyframes fadeIn-left {
+    from{
+        transform: translateX(10px);
+        opacity: 0;
+      }
+      to{
+        transform: none;
+        opacity: 1;
+      }
+    }
+
 .message-row {
     width: 100%;
     display: flex;
     margin-bottom: 25px;
+    opacity: 0;
+    animation: fadeIn-left 0.5s linear forwards;
 }
 
 .message-row img {
@@ -83,8 +96,20 @@
     font-size: 15px;
 }
 
+@keyframes fadeIn-right{
+    from{
+    transform: translateX(-10px);
+    opacity: 0;
+  }
+  to{
+    transform: none;
+    opacity: 1;
+  }
+}
+
 .message-row--own {
     justify-content: flex-end;
+    animation: fadeIn-right 0.5s linear forwards;
 }
 
 .message-row--own .message-row__bubble {
@@ -98,4 +123,20 @@
 
 .message-row--own .message-row__info {
     flex-direction: row-reverse;
+}
+
+.message-row:nth-child(2) {
+    animation-delay: 0.5s;
+}
+
+.message-row:nth-child(3) {
+    animation-delay: 1.0s;
+}
+
+.message-row:nth-child(4) {
+    animation-delay: 1.5s;
+}
+
+.message-row:nth-child(5) {
+    animation-delay: 2.0s;
 }

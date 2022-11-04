@@ -17,13 +17,13 @@
 
 .user-component__title {
     font-weight: 600;
-    font-size: 22px;
+    font-size: 24px;
 }
 
 .user-component__subtitle {
     margin-top: 8px;
-    font-size: 17px;
-    color : rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    color : rgba(0, 0, 0, 0.6);
 }
 
 .user-component__avatar--xl {
@@ -61,3 +61,15 @@
 .user-component__subtitle i {
     color :tomato;
 }
+
+.user-component__friend {
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.user-component__friend:hover {
+    background-color: rgb(255, 214, 221);
+    border: 1px solid pink;
+    box-shadow: 2px 2px 2px 2px pink;
+}
+    
