@@ -1,5 +1,6 @@
 #chat-screen {
-    background-color: rgb(255, 233, 237);
+    background :url("/photo/back.webp") no-repeat center bottom fixed;
+    background-color: rgb(254 218 205);
     height : 500vh;
 }
 
@@ -7,7 +8,7 @@
     top : 0px;
     position: fixed;
     width: 100%;
-    background-color: rgb(255, 233, 237);
+    background-color: rgb(254 218 205);
     box-sizing: border-box;
     z-index: 1;
 }
@@ -36,7 +37,7 @@
 }   
 
 .chat__timestamp {
-    background-color: rgb(207, 187, 190);
+    background-color: rgba(184, 175, 171, 0.6);
     color: white;
     padding : 10px 15px;
     border-radius: 25px;
@@ -113,7 +114,7 @@
 }
 
 .message-row--own .message-row__bubble {
-    background-color: pink;
+    background-color:rgb(248, 183, 159);
     border-top-right-radius: 0px;
     border-top-left-radius: 15px;
     margin-right: 0px;

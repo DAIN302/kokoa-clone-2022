@@ -2,13 +2,12 @@
     position: fixed;
     bottom: 0;
     width :100%;
-    background-color: pink;
+    background-color:rgb(248, 183, 159);
     display: flex;
     justify-content: space-between;
     padding : 5px 25px;
     box-sizing: border-box;
     align-items: center;
-    border-top: 0.5px solid rgb(255,255,255);
     transition: all 0.3s ease-in-out;
 }
 
@@ -49,7 +48,7 @@
 
 
 .reply__column button {
-    background-color: pink;
+    background-color: rgb(248, 183, 159);
     border: none;
     width: 25px;
     height: 25px;
