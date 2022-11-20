@@ -1,6 +1,5 @@
 #chat-screen {
-    background :url("/photo/back.webp") no-repeat center bottom fixed;
-    background-color: rgb(254 218 205);
+    background : rgba(254 218 205) url("../../photo/back.png") no-repeat bottom fixed;
     height : 500vh;
 }
 
