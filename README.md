@@ -1,4 +1,3 @@
 # Kokoa Clone 2022 Update
 
-공부중
-화이팅
+HTML와 CSS만 사용해서 클론
